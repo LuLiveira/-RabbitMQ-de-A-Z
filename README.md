@@ -21,7 +21,7 @@ Ex: Se eu enviar 2 mensagens vai 1 para cada consumidor.
 
 ## Aula 10 - Exchange e chave de roteamento
 
-No RabbitMQ primeiro a mensagem é pega pelo `exchange` que seria algo semelhante a um "pré-tópico" e a partir dele o RabbitMQ manda a mensagem para o `routing_key` que seria a fila (ou tópico) de fato.
+No RabbitMQ primeiro a mensagem é pega pelo `exchange` que seria algo semelhante a um "pré-fila" e a partir dele o RabbitMQ manda a mensagem para o `routing_key` que seria a fila (ou tópico) de fato.
 
 Obs: `exchange` vázio é o default do RabbitMQ se passamos vázio não precisamos criar um exchange.
 
